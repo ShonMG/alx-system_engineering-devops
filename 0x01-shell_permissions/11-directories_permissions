@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R o+X *
+chown -R a+X *
