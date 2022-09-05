@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -not -path '*/.*' -type f,d -empty -printf "%f\n"
+find . -not -name .[^.]* -type f,d -empty -printf "%f\n"
