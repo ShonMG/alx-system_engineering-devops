@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -not -path '*/.*' -type f,d -empty | cut -d/ -f1 
+find . -not -path '*/.*' -type f,d -empty -printf "%f\n"
