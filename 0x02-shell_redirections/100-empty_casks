@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -not -path '*/.*' -type f,d -empty 
+find . -not -path '*/.*' -type f,d -empty | ls -l 
